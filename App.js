@@ -7,6 +7,7 @@ import naruto from './images/naruto.jpg';
 import ticTacToe from './images/tic_tac_toe.png';
 import rockPaperScissors from './images/rock_paper_scissors.png';
 import twistedSeries from './images/twisted_series.jpg';
+import Chatbot from './Chatbot';
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
 
           <img src={rockPaperScissors} alt="Rock Paper Scissors" className="project-img" />
           <p><a href="https://obi2.kean.edu/~okafchid@kean.edu/project/game2.html">Play Rock Paper Scissors</a></p>
+        </div>
+        <div className="chatbot-container">
+          <h2>Chatbot</h2>
+          <Chatbot /> {/* Render the Chatbot component */}
         </div>
       </section>
 
